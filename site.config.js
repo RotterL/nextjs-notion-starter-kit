@@ -12,9 +12,9 @@ module.exports = {
   author: 'RotterL',
 
   // open graph metadata (optional)
-  // description: 'Example site description',
-  // socialImageTitle: 'Transitive Bullshit',
-  // socialImageSubtitle: 'Hello World! 👋',
+   description: '基础医学实验技术学习',
+   socialImageTitle: 'Rotterl',
+   socialImageSubtitle: 'Hello World! 👋',
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
@@ -32,7 +32,7 @@ module.exports = {
   imageCDNHost: null,
 
   // Utteranc.es comments via GitHub issue comments (optional)
-  utterancesGitHubRepo: null,
+  utterancesGitHubRepo: RotterL/biotechcomments,
 
   // whether or not to enable support for LQIP preview images (optional)
   // NOTE: this requires you to set up Google Firebase and add the environment
@@ -43,9 +43,8 @@ module.exports = {
   // any pages defined here will override their default URL paths
   // example:
   //
-  // pageUrlOverrides: {
-  //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
-  //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
-  // }
-  pageUrlOverrides: null
+   pageUrlOverrides: {
+     '/biotech': 'f0e89f6361344d9f88032bbef1abd7b9'
+   }
+  // pageUrlOverrides: true
 }
