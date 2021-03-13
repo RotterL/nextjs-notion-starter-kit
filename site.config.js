@@ -32,7 +32,7 @@ module.exports = {
   imageCDNHost: null,
 
   // Utteranc.es comments via GitHub issue comments (optional)
-  utterancesGitHubRepo: 'RotterL/nextjs-notion-starter-kit',
+  utterancesGitHubRepo: 'RotterL/biotechcomments',
 
   // whether or not to enable support for LQIP preview images (optional)
   // NOTE: this requires you to set up Google Firebase and add the environment
@@ -43,8 +43,8 @@ module.exports = {
   // any pages defined here will override their default URL paths
   // example:
   //
-   pageUrlOverrides: {
-     '/biotech': 'f0e89f6361344d9f88032bbef1abd7b9'
-   }
-  // pageUrlOverrides: true
+  // pageUrlOverrides: {
+  //   '/biotech': 'f0e89f6361344d9f88032bbef1abd7b9'
+  // }
+  pageUrlOverrides: null
 }
