@@ -34,7 +34,8 @@ import { PageActions } from './PageActions'
 import { Footer } from './Footer'
 import { PageSocial } from './PageSocial'
 import { GitHubShareButton } from './GitHubShareButton'
-import { ReactUtterances } from './ReactUtterances'
+import { ReactUtterances } from 'https://utteranc.es/client.js'
+// import { ReactUtterances } from './ReactUtterances'
 
 import styles from './styles.module.css'
 
