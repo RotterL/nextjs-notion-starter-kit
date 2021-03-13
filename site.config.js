@@ -8,7 +8,7 @@ module.exports = {
 
   // basic site info (required)
   name: '香草杏仁',
-  domain: 'xcxr.site',
+  domain: 'biotech.xcxr.site',
   author: 'RotterL',
 
   // open graph metadata (optional)
